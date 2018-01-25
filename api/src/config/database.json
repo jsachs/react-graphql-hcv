@@ -1,16 +1,16 @@
 {
   "development": {
-    "username": "root",
+    "username": "postgres",
     "password": null,
-    "database": "graphql",
+    "database": "hcv",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "postgres"
   },
   "production": {
-    "username": "root",
+    "username": "postgres",
     "password": null,
-    "database": "graphql_production",
+    "database": "hcv_prod",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "postgres"
   }
 }
