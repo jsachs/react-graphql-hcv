@@ -5,6 +5,7 @@ import Sequelize from 'sequelize'
 import databaseConnection from '../setup/databaseConnection'
 
 const models = {
+  Result:  databaseConnection.import('./result'),
   Thought: databaseConnection.import('./thought')
 }
 
