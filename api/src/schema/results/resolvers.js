@@ -3,7 +3,7 @@ import models from '../../models'
 
 // Get results by name
 export async function getByName(parentValue, {name}) {
-  return await models.Result.findOne({where: {dba: name}})
+  return await models.Result.findAll({where: {dba: name}})
 }
 
 // Get all results

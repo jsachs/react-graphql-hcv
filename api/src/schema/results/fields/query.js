@@ -13,7 +13,7 @@ export const results = {
 
 // Result By Name
 export const result = {
-  type: ResultType,
+  type: new GraphQLList(ResultType),
   args: {
     name: {type: GraphQLString}
   },
