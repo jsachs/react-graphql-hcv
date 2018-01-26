@@ -7,6 +7,12 @@ export const routes = {
 
   about: '/about',
 
+  results: {
+    search: '/results',
+
+    view: '/results/view'
+  },
+
   thoughts: {
     list: '/thoughts',
 

@@ -19,5 +19,5 @@ export default function (server) {
   server.use(cookieParser())
 
   // HTTP logger
-  server.use(morgan('tiny'))
+  server.use(morgan('dev'))
 }

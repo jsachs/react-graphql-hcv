@@ -10,6 +10,8 @@ import About from './home/About'
 import ThoughtsList from './thoughts/List'
 import ThoughtsCreate from './thoughts/Create'
 import ThoughtsView from './thoughts/View'
+import ResultsSearch from './results/Search'
+import ResultsView from './results/View'
 
 // Component
 const App = () => (
@@ -18,6 +20,10 @@ const App = () => (
       {/* Common */}
       <Route path={routes.home} component={Home} exact/>
       <Route path={routes.about} component={About}/>
+
+      {/* Results */}
+      <Route path={routes.thoughts.search} component={ResultsSearch} exact/>
+      <Route path={routes.thoughts.view} component={ResultsView}/>
 
       {/* Thoughts */}
       <Route path={routes.thoughts.list} component={ThoughtsList} exact/>
